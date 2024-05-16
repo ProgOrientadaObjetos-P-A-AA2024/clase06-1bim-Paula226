@@ -17,7 +17,7 @@ public class ManejoArrayList6 {
     public static void main(String[] args) {
         
         Calificacion c1 = new Calificacion(10, "Base de Datos");
-        Calificacion c2 = new Calificacion(9, "Matemáticas");
+        Calificacion c2 = new Calificacion(9, "Matemáticas");//
         Calificacion c3 = new Calificacion(7, "Lógica");
         
         Profesor prof1 = new Profesor("Joseph Jimenez", "facturado");
@@ -38,6 +38,7 @@ public class ManejoArrayList6 {
         for (int i = 0; i < calificaciones.size(); i++) {
             System.out.printf("%s\n",
                     calificaciones.get(i) );
+            
         
         }
     }    
