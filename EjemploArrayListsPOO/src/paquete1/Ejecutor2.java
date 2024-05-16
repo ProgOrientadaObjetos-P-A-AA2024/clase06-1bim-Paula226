@@ -52,6 +52,7 @@ public class Ejecutor2 {
             nombreProfesor = entrada.nextLine();
             System.out.printf("Ingrese tipo de contrato del profesor %d\n", 
                     i + 1);
+                            
             tipoProfesor = entrada.nextLine();
             
             Profesor p1 = new Profesor(nombreProfesor, tipoProfesor);
