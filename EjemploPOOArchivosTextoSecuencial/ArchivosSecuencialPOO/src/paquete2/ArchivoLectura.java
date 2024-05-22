@@ -101,3 +101,5 @@ public class ArchivoLectura {
         return cadena;
     }
 }
+//Con el metodo toString crea y devuelve una cadena que contiene una lista numerada de todos los profesores
+//mostrando tambien  su nombre y su tipo//

@@ -55,7 +55,7 @@ public class ArchivoEscritura {
     // agrega registros al archivo
     public void establecerSalida() {
         try {
-            salidaArchivo = new Formatter(new FileWriter(rutaArchivo, true));
+            salidaArchivo = new Formatter(new FileWriter(rutaArchivo, true)); // si no tiene true se sobreescribe 
             Profesor p = obtenerRegistro();
             
             String cadenaRegistro = String.format("%s;%s",
@@ -66,7 +66,7 @@ public class ArchivoEscritura {
         } catch (IOException e) {
             System.err.println("Error al crear el archivo.");
             System.err.println(e);
-
+//este método añade la información de un profesor al final de un archivo, manejando cualquier posible error que ocurra durante el proceso.
         }
 
     }
